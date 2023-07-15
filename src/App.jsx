@@ -81,8 +81,6 @@ function App() {
     }
   };
   
-  
-
   const resetBoard = () => {
     setGameOver(false);
     setBoard(Array(9).fill(null));
