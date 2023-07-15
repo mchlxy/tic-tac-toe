@@ -89,7 +89,7 @@ function App() {
   }
 
   return (
-      <div className="w-[85%] md:w-[40%] lg:w-[20%]  m-auto">
+      <div className="w-[85%] sm:w-[50%] md:w-[40%] lg:w-[30%] xl:w-[25%]  m-auto">
         <ScoreBoard score={score} xPlaying={xPlaying}/>
         <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick} />
         <Reset resetBoard={resetBoard} />
